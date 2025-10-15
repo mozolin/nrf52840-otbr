@@ -28,11 +28,17 @@ For example, in C:\\Users\\[username]\\.nrfutil\\ncs-toolchain:
   
 ![](images/ncs-toolchain_02.png)  
 
+The path where ncs-toolchain is located can be anything else!  
   
 ### 5) Launch the terminal
 ~~~
 nrfutil sdk-manager toolchain launch --toolchain-path "C:\Users\[username]\.nrfutil\ncs-toolchain" --terminal
 ~~~
+or
+~~~
+nrfutil sdk-manager toolchain launch --toolchain-path "The_path_where_ncs-toolchain_is_located" --terminal
+~~~
+
 **All other scripts/programs are executed from the running Powershell terminal...**  
 
 
